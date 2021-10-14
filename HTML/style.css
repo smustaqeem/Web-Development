@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------------header------------------------- */
+header {
+  background: rgb(68, 168, 168);
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  color: rgb(0, 0, 0);
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  padding-right: 60px;
+  text-decoration: none;
+}
+
+.big-header {
+  background: rgb(86, 190, 204);
+  padding: 150px;
+  text-align: center;
+}
+
+.big-header h1 {
+  font-size: 60px;
+}
+
+/* -------------------------main------------------------ */
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+    background: rgb(189, 188, 188);
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    background: rgb(189, 188, 188);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.our-services-item {
+    /* background: rgb(255, 255, 255); */
+    /* border: 1px solid yellow; */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 23%;
+}
+
+.our-services-item:hover {
+    background: rgb(68, 168, 168);
+    box-shadow: 0px 0px 10px rgb(7, 27, 26);
+}
+
+.our-services-item h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.our-services-item p {
+    line-height: 1.5;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+/* -------------------------footer------------------------ */
+footer {
+  background: rgb(151, 204, 154);
+  color: rgb(255, 255, 255);
+  /* height: 300px; */
+}
+
+/* ------------------upper footer----------------- */
+#upp-foo-sec-con {
+  background: rgba(71, 68, 68, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.upp-foo-sec-itm {
+}
+
+.social-icons {
+  padding: 20px 0 0 0;
+}
+
+.social-icons a {
+  padding-right: 20px;
+}
+
+.social-icons a i {
+  size: 10px;
+}
+
+.upp-foo-sec-itm h4 {
+  font-size: larger;
+  padding-bottom: 20px;
+}
+
+.upp-foo-sec-itm h4:hover {
+  padding-left: 5px;
+  text-decoration: 2px underline rgb(109, 236, 141);
+}
+
+.upp-foo-sec-itm ul {
+  list-style: none;
+}
+
+.upp-foo-sec-itm li {
+  padding-bottom: 10px;
+}
+
+.upp-foo-sec-itm a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+hr {
+  color: gray;
+}
+
+/* --------------------lower footer-------------------- */
+#low-foo-sec-con {
+  background: rgba(148, 107, 107, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+#low-foo-sec-con a {
+  color: rgb(40, 240, 30);
+  text-decoration: none;
+}

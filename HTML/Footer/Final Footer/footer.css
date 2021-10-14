@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* -----------------------footer--------------------- */
+footer {
+  background: rgb(151, 204, 154);
+  color: rgb(255, 255, 255);
+  /* height: 300px; */
+}
+
+/* ------------------upper footer----------------- */
+#upp-foo-sec-con {
+  background: rgba(71, 68, 68, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.upp-foo-sec-itm {
+}
+
+.social-icons {
+  padding: 20px 0 0 0;
+}
+
+.social-icons a {
+  padding-right: 20px;
+}
+
+.social-icons a i {
+  size: 10px;
+}
+
+.upp-foo-sec-itm h4 {
+  font-size: larger;
+  padding-bottom: 20px;
+}
+
+.upp-foo-sec-itm h4:hover {
+  padding-left: 5px;
+  text-decoration: 2px underline rgb(109, 236, 141);
+}
+
+.upp-foo-sec-itm ul {
+  list-style: none;
+}
+
+.upp-foo-sec-itm li {
+  padding-bottom: 10px;
+}
+
+.upp-foo-sec-itm a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+hr {
+  color: gray;
+}
+
+/* --------------------lower footer-------------------- */
+#low-foo-sec-con {
+  background: rgba(148, 107, 107, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+#low-foo-sec-con a {
+  color: rgb(40, 240, 30);
+  text-decoration: none;
+}
